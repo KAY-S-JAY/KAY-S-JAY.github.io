@@ -112,7 +112,7 @@ ul li {
     margin: 20px 0;
 }
 
-.contact__email {
+.contact__details {
     font-weight: bold;
     font-size: 1.1em;   
     color: #ffffff;
@@ -123,7 +123,7 @@ ul li {
     transition: color 0.3s ease-in-out;
 }
 
-.contact__email:hover {
+.contact__details:hover {
     color: #f4a261;  /* Changes color on hover */
 }
 
