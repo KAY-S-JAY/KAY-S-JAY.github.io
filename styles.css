@@ -64,6 +64,10 @@ header, .menu {
     overflow: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .menu__wrapper {
