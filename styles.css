@@ -10,26 +10,20 @@ body {
     color: #ffffff;
 }
 
-header {
+header, .menu {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #1f1f1f; /* Same as menu background */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+    background-color: #1f1f1f;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     padding: 10px 0;
 }
 
-/* Menu Styles */
 .menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, .1) 90%);
     padding: 15px 20px;
-    z-index: 1000;
     transition: background 0.3s ease-in-out;
 }
 
@@ -51,10 +45,6 @@ header {
     margin: 0;
 }
 
-.menu__item {
-    margin: 0;
-}
-
 .menu__link {
     text-decoration: none;
     color: white;
@@ -69,6 +59,9 @@ header {
 /* Adjust content to not be hidden under fixed menu */
 .container {
     margin-top: 80px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
 /* Responsive Design */
@@ -82,10 +75,6 @@ header {
         flex-direction: column;
         gap: 10px;
         margin-top: 10px;
-    }
-
-    .menu__link--main {
-        margin-bottom: 10px;
     }
 }
 
@@ -108,13 +97,7 @@ ul li {
     margin: 5px; /* Adds some spacing between items */
 }
 
-/* Content Layout */
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
+/* Section Styles */
 .section {
     padding: 20px;
     margin: 20px 0;
