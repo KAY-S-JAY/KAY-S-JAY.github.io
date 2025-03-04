@@ -124,7 +124,6 @@ ul li {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #1f1f1f;
     background: linear-gradient(to top, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, .1) 90%);
     color: white;
 }
