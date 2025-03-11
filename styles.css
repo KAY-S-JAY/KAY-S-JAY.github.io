@@ -154,3 +154,8 @@ footer {
 .fade-in {
     animation: fadeIn 0.6s ease-out forwards;
 }
+
+.divider {
+    height: 5px;
+    background: linear-gradient(to right, #ffcc00, #ffffff, #ffcc00);
+}
